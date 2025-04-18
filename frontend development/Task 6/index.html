@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendHive Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-content">
+            <div>
+                <h1 class="logo">🛍 TrendHive</h1>
+                <p class="tagline">Your One-Stop Online Shop</p>
+            </div>
+            <button id="themeToggle" class="theme-btn">🌙</button>
+        </div>
+    </header>
+    
+    
+    <nav class="navbar">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Shop</a>
+        <a href="#" class="nav-link">New Arrivals</a>
+        <a href="#" class="nav-link">Deals</a>
+        <a href="#" class="nav-link">Contact</a>
+    </nav>
+
+    
+    <main class="container">
+        <h2 class="section-title">Trending Products</h2>
+        
+        
+        <div class="products" id="productsContainer">
+            <div class="loading-spinner"></div>
+        </div>
+
+    </main>
+    
+<div class="slide-form" id="slideForm">
+    <div class="slide-form-content">
+        <span class="close-btn" id="closeForm">&times;</span>
+        <h2>Contact Us</h2>
+        <form id="contactSlideForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Write your message..." required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+</div>
+
+
+<button class="open-slide-btn" id="openForm">📩 Contact Us</button>
+
+    
+    <footer class="footer">
+        <p>📍 TrendHive - Your Trusted Online Store</p>
+        <div class="contact-info">
+            <p>📞 +91 98765 43210</p>
+            <p>📧 support@trendhive.in</p>
+            <p>🏢 123 Shopping St, Mumbai 400001</p>
+        </div>
+        <p class="copyright">© 2025 TrendHive. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
